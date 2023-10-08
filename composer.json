@@ -27,7 +27,10 @@
     "preferred-install": {
       "*": "source"
     },
-    "vendor-dir": "libraries"
+    "vendor-dir": "libraries",
+    "platform": {
+      "php": "7.4.0"
+    }
   },
   "description": "A Usenet Indexer",
   "extra": {
@@ -103,9 +106,8 @@
     "ext-zlib": "*",
     "b3rs3rk/steamfront": "dev-master",
     "barracudanetworks/forkdaemon-php": "^1.0.7",
-    "composer-plugin-api": "^1.0.0",
-    "dborsatto/php-giantbomb": "2.1.0",
-    "fxp/composer-asset-plugin": "1.4.4",
+    "composer-plugin-api": "^2.6",
+    "dborsatto/php-giantbomb": "^2.2.0",
     "google/recaptcha": "^1.1.2",
     "guzzlehttp/guzzle": "^6.3",
     "james-heinrich/getid3": "^1.9.12",
@@ -113,7 +115,7 @@
     "mhor/php-mediainfo": "^5.0@dev",
     "moinax/tvdb": "^1.0.4",
     "nzedb/git.php": "dev-master",
-    "php": "~7.1",
+    "php": "~7.4",
     "php-tmdb/api": "^2.1",
     "phpmailer/phpmailer": "^6.1",
     "robmorgan/phinx": "0.13.4",
