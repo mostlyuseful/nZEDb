@@ -24,6 +24,10 @@
     "vendor-dir": "libraries",
     "platform": {
       "php": "7.4.0"
+    },
+    "allow-plugins": {
+      "composer/installers": true,
+      "oomphinc/composer-installers-extender": true
     }
   },
   "description": "A Usenet Indexer",
