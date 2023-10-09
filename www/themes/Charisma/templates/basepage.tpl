@@ -31,9 +31,9 @@
 	<!-- The styles -->
 	<link id="bs-css" href="{$smarty.const.WWW_THEMES}/shared/libs/bootswatch/slate/bootstrap.min.css" rel="stylesheet">
 	<link href="{$smarty.const.WWW_THEMES}/{$theme}/css/charisma-app.css" rel="stylesheet">
-	<link href='{$smarty.const.WWW_THEMES}/shared/libs/chosen-1.5.x/chosen.css' rel='stylesheet'>
-	<link href='{$smarty.const.WWW_THEMES}/shared/libs/colorbox-1.6.x/example3/colorbox.css' rel='stylesheet'>
-	<link href='{$smarty.const.WWW_THEMES}/shared/libs/responsive-tables-js-1.0.x/dist/responsivetables.css'
+	<link href='{$smarty.const.WWW_THEMES}/shared/libs/chosen/chosen.css' rel='stylesheet'>
+	<link href='{$smarty.const.WWW_THEMES}/shared/libs/colorbox/example3/colorbox.css' rel='stylesheet'>
+	<link href='{$smarty.const.WWW_THEMES}/shared/libs/responsive-tables-js/dist/responsivetables.css'
 		  rel='stylesheet'>
 	<link href='{$smarty.const.WWW_THEMES}/{$theme}/css/elfinder.min.css' rel='stylesheet'>
 	<link href='{$smarty.const.WWW_THEMES}/{$theme}/css/elfinder.theme.css' rel='stylesheet'>
@@ -41,7 +41,7 @@
 	<link href="{$smarty.const.WWW_THEMES}/shared/assets/pnotify/dist/pnotify.css" rel="stylesheet" type="text/css"/>
 	<link href='{$smarty.const.WWW_THEMES}/shared/libs/animate.css/animate.min.css' rel='stylesheet'>
 	<!-- Font Awesome Icons -->
-	<link href="{$smarty.const.WWW_THEMES}/shared/libs/font-awesome-4.5.x/css/font-awesome.min.css" rel="stylesheet"
+	<link href="{$smarty.const.WWW_THEMES}/shared/libs/font-awesome/css/font-awesome.min.css" rel="stylesheet"
 		  type="text/css"/>
 	<link href="{$smarty.const.WWW_THEMES}/shared/css/jquery.qtip.css" type="text/css" media="screen"/>
 	<!-- Normalize.css -->
@@ -185,28 +185,28 @@
 <!-- Scripts-->
 <!-- jQuery -->
 <script type="text/javascript"
-		src="{$smarty.const.WWW_THEMES}/shared/libs/jquery-2.2.x/dist/jquery.min.js"></script>
+		src="{$smarty.const.WWW_THEMES}/shared/libs/jquery/dist/jquery.min.js"></script>
 <!-- jQuery migrate script -->
 <script type="text/javascript"
-		src="{$smarty.const.WWW_THEMES}/shared/libs/jquery-migrate-1.4.x/jquery-migrate.min.js"></script>
+		src="{$smarty.const.WWW_THEMES}/shared/libs/jquery-migrate/jquery-migrate.min.js"></script>
 <script type="text/javascript"
-		src="{$smarty.const.WWW_THEMES}/shared/libs/bootstrap-3.3.x/dist/js/bootstrap.min.js"></script>
+		src="{$smarty.const.WWW_THEMES}/shared/libs/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- Bootstrap hover on mouseover script -->
 <script type="text/javascript"
-		src="{$smarty.const.WWW_THEMES}/shared/libs/bootstrap-hover-dropdown-2.2.x/bootstrap-hover-dropdown.min.js"></script>
+		src="{$smarty.const.WWW_THEMES}/shared/libs/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
 <!-- library for cookie management -->
 <script type="text/javascript" src="{$smarty.const.WWW_THEMES}/{$theme}/js/jquery.cookie.js"></script>
 <!-- data table plugin -->
 <script type="text/javascript"
-		src='{$smarty.const.WWW_THEMES}/shared/libs/datatables-1.10.x/media/js/jquery.dataTables.min.js'></script>
+		src='{$smarty.const.WWW_THEMES}/shared/libs/datatables/media/js/jquery.dataTables.min.js'></script>
 <!-- select or dropdown enhancer -->
-<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/chosen-1.5.x/chosen.jquery.js"></script>
+<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/chosen/chosen.jquery.js"></script>
 <!-- plugin for gallery image view -->
 <script type="text/javascript"
-		src="{$smarty.const.WWW_THEMES}/shared/libs/colorbox-1.6.x/jquery.colorbox-min.js"></script>
+		src="{$smarty.const.WWW_THEMES}/shared/libs/colorbox/jquery.colorbox-min.js"></script>
 <!-- library for making tables responsive -->
 <script type="text/javascript"
-		src="{$smarty.const.WWW_THEMES}/shared/libs/responsive-tables-js-1.0.x/dist/responsivetables.js"></script>
+		src="{$smarty.const.WWW_THEMES}/shared/libs/responsive-tables-js/dist/responsivetables.js"></script>
 <!-- tinymce editor -->
 <script type="text/javascript"
 		src="{$smarty.const.WWW_THEMES}/shared/libs/tinymce-builded/js/tinymce/tinymce.min.js"></script>
@@ -214,12 +214,12 @@
 <script type="text/javascript" src="{$smarty.const.WWW_THEMES}/{$theme}/js/charisma.js"></script>
 <!-- nZEDb default scripts, needed for stuff to work -->
 <script type="text/javascript"
-		src="{$smarty.const.WWW_THEMES}/shared/libs/autosize-3.0.x/dist/autosize.min.js"></script>
+		src="{$smarty.const.WWW_THEMES}/shared/libs/autosize/dist/autosize.min.js"></script>
 <script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/js/sorttable.js"></script>
 <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
-<script src="{$smarty.const.WWW_THEMES}/shared/libs/html5shiv-3.7.x/dist/html5shiv.min.js"></script>
-<script src="{$smarty.const.WWW_THEMES}/shared/libs/respond-1.4.x/dest/respond.min.js"></script>
+<script src="{$smarty.const.WWW_THEMES}/shared/libs/html5shiv/dist/html5shiv.min.js"></script>
+<script src="{$smarty.const.WWW_THEMES}/shared/libs/respond/dest/respond.min.js"></script>
 <![endif]-->
 
 <!-- autogrowing textarea plugin -->
@@ -230,7 +230,7 @@
 <script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/js/functions.js"></script>
 <!-- nZEDb default scripts, needed for stuff to work -->
 <script type="text/javascript"
-		src="{$smarty.const.WWW_THEMES}/shared/libs/colorbox-1.6.x/jquery.colorbox-min.js"></script>
+		src="{$smarty.const.WWW_THEMES}/shared/libs/colorbox/jquery.colorbox-min.js"></script>
 <script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/js/jquery.qtip2.js"></script>
 <script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/js/sorttable.js"></script>
 <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->

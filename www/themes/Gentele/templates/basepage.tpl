@@ -21,11 +21,11 @@
 	<title>{$page->meta_title}{if $page->meta_title != "" && $site->metatitle != ""} - {/if}{$site->metatitle}</title>
 
 	<!-- Bootstrap core CSS -->
-	<link href="{$smarty.const.WWW_THEMES}/shared/libs/bootstrap-3.3.x/dist/css/bootstrap.min.css" rel="stylesheet"
+	<link href="{$smarty.const.WWW_THEMES}/shared/libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"
 		  type="text/css"/>
-	<link href="{$smarty.const.WWW_THEMES}/shared/libs/font-awesome-4.5.x/css/font-awesome.min.css" rel="stylesheet"
+	<link href="{$smarty.const.WWW_THEMES}/shared/libs/font-awesome/css/font-awesome.min.css" rel="stylesheet"
 		  type="text/css"/>
-	<link href="{$smarty.const.WWW_THEMES}/shared/libs/pnotify-3.0.x/dist/pnotify.css" rel="stylesheet" type="text/css"/>
+	<link href="{$smarty.const.WWW_THEMES}/shared/libs/pnotify/dist/pnotify.css" rel="stylesheet" type="text/css"/>
 	<link href="{$smarty.const.WWW_THEMES}/shared/libs/animate.css/animate.min.css" rel="stylesheet">
 	<!-- Normalize.css -->
 	<link href="{$smarty.const.WWW_THEMES}/shared/css/normalize.css" rel="stylesheet" type="text/css">
@@ -33,12 +33,12 @@
 	<!-- Newposterwall -->
 	<link href="{$smarty.const.WWW_THEMES}/shared/css/posterwall.css" rel="stylesheet" type="text/css" media="screen"/>
 	<link href="{$smarty.const.WWW_THEMES}/shared/css/custom.css" rel="stylesheet">
-	<link href="{$smarty.const.WWW_THEMES}/shared/libs/icheck-1.0.x/skins/flat/green.css" rel="stylesheet">
+	<link href="{$smarty.const.WWW_THEMES}/shared/libs/icheck/skins/flat/green.css" rel="stylesheet">
 	<link href="{$smarty.const.WWW_THEMES}/shared/js/jquery.qtip2.css" type="text/css" media="screen"/>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
-	<script src="{$smarty.const.WWW_THEMES}/shared/libs/html5shiv-3.7.x/dist/html5shiv.min.js"></script>
-	<script src="{$smarty.const.WWW_THEMES}/shared/libs/respond-1.4.x/dest/respond.min.js"></script>
+	<script src="{$smarty.const.WWW_THEMES}/shared/libs/html5shiv/dist/html5shiv.min.js"></script>
+	<script src="{$smarty.const.WWW_THEMES}/shared/libs/respond/dest/respond.min.js"></script>
 	<![endif]-->
 
 </head>
@@ -214,40 +214,40 @@
 	</div>
 
 </div>
-<script src="{$smarty.const.WWW_THEMES}/shared/libs/jquery-2.2.x/dist/jquery.min.js" type="text/javascript"></script>
-<script src="{$smarty.const.WWW_THEMES}/shared/libs/bootstrap-3.3.x/dist/js/bootstrap.min.js"
+<script src="{$smarty.const.WWW_THEMES}/shared/libs/jquery/dist/jquery.min.js" type="text/javascript"></script>
+<script src="{$smarty.const.WWW_THEMES}/shared/libs/bootstrap/dist/js/bootstrap.min.js"
 		type="text/javascript"></script>
 <!-- bootstrap progress js -->
 <script type="text/javascript"
-		src="{$smarty.const.WWW_THEMES}/shared/libs/bootstrap-progressbar-0.9.x/bootstrap-progressbar.min.js"></script>
+		src="{$smarty.const.WWW_THEMES}/shared/libs/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
 <script type="text/javascript"
-		src="{$smarty.const.WWW_THEMES}/shared/libs/bootstrap-hover-dropdown-2.2.x/bootstrap-hover-dropdown.min.js"></script>
+		src="{$smarty.const.WWW_THEMES}/shared/libs/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
 <script type="text/javascript"
-		src="{$smarty.const.WWW_THEMES}/shared/libs/jquery.nicescroll-3.6.x/jquery.nicescroll.min.js"></script>
+		src="{$smarty.const.WWW_THEMES}/shared/libs/jquery.nicescroll/jquery.nicescroll.min.js"></script>
 <!-- Custom functions -->
 <script src="{$smarty.const.WWW_THEMES}/shared/js/functions.js" type="text/javascript"></script>
 <!-- icheck -->
-<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/icheck-1.0.x/icheck.min.js"></script>
+<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/icheck/icheck.min.js"></script>
 <script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/js/custom.js"></script>
 <!-- jQuery migrate script -->
-<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/jquery-migrate-1.4.x/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/jquery-migrate/jquery-migrate.min.js"></script>
 <!-- newznab default scripts, needed for stuff to work -->
-<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/colorbox-1.6.x/jquery.colorbox-min.js"></script>
-<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/autosize-3.0.x/dist/autosize.min.js"></script>
+<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/colorbox/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/autosize/dist/autosize.min.js"></script>
 <script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/js/jquery.qtip2.js"></script>
 <script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/js/sorttable.js"></script>
 
 <!-- PNotify -->
-<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/pnotify-3.0.x/dist/pnotify.js"></script>
-<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/pnotify-3.0.x/dist/pnotify.animate.js"></script>
-<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/pnotify-3.0.x/dist/pnotify.desktop.js"></script>
-<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/pnotify-3.0.x/dist/pnotify.callbacks.js"></script>
-<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/pnotify-3.0.x/dist/pnotify.buttons.js"></script>
-<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/pnotify-3.0.x/dist/pnotify.confirm.js"></script>
-<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/pnotify-3.0.x/dist/pnotify.nonblock.js"></script>
+<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/pnotify/dist/pnotify.js"></script>
+<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/pnotify/dist/pnotify.animate.js"></script>
+<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/pnotify/dist/pnotify.desktop.js"></script>
+<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/pnotify/dist/pnotify.callbacks.js"></script>
+<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/pnotify/dist/pnotify.buttons.js"></script>
+<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/pnotify/dist/pnotify.confirm.js"></script>
+<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/pnotify/dist/pnotify.nonblock.js"></script>
 
 <!-- pace -->
-<script src="{$smarty.const.WWW_THEMES}/shared/libs/pace-1.0.x/pace.min.js"></script>
+<script src="{$smarty.const.WWW_THEMES}/shared/libs/pace/pace.min.js"></script>
 <!-- tinymce editor -->
 <script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/tinymce-builded/js/tinymce/tinymce.min.js"></script>
 

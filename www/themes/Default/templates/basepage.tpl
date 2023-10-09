@@ -16,9 +16,9 @@
 	{if $loggedin=="true"}<link rel="alternate" type="application/rss+xml" title="{$site->title} Full Rss Feed" href="{$smarty.const.WWW_TOP}/rss?t=0&amp;dl=1&amp;i={$userdata.id}&amp;r={$userdata.rsstoken}">{/if}
 
 	<!-- Included CSS files - Bootstrap 3 - Font Awesome 3.2.0 - plugins master style.css -->
-	<link href="{$smarty.const.WWW_THEMES}/shared/libs/bootstrap-2.3.x/docs/assets/css/bootstrap.css" rel="stylesheet"
+	<link href="{$smarty.const.WWW_THEMES}/shared/libs/bootstrap/docs/assets/css/bootstrap.css" rel="stylesheet"
 		  type="text/css"/>
-	<link href="{$smarty.const.WWW_THEMES}/shared/libs/font-awesome-4.5.x/css/font-awesome.min.css" rel="stylesheet"
+	<link href="{$smarty.const.WWW_THEMES}/shared/libs/font-awesome/css/font-awesome.min.css" rel="stylesheet"
 		  type="text/css"/>
 	<link href="{$smarty.const.WWW_THEMES}/shared/css/jquery.qtip.css" rel="stylesheet" media="screen">
 	<!-- <link href="{$smarty.const.WWW_THEMES}/shared/css/subnav.css" rel="stylesheet" media="screen"> -->
@@ -37,7 +37,7 @@
 	<!-- Additional site files -->
 	{if $site->google_adsense_acc != ''}<link href="http://www.google.com/cse/api/branding.css" rel="stylesheet" media="screen">{/if}
 	<!--[if lt IE 9]>
-	<script src="{$smarty.const.WWW_THEMES}/shared/libs/html5shiv-3.7.x/dist/html5shiv.min.js"></script>
+	<script src="{$smarty.const.WWW_THEMES}/shared/libs/html5shiv/dist/html5shiv.min.js"></script>
 	<![endif]-->
 
 	<script>
@@ -101,10 +101,10 @@
 
 	<!-- Moved The Script Files to end of site for faster page loading -->
 	<!-- jQuery 1.9.1 -->
-		<script src="{$smarty.const.WWW_THEMES}/shared/libs/jquery-1.9.x/jquery.min.js"></script>
-	<script src="{$smarty.const.WWW_THEMES}/shared/libs/bootstrap-2.3.x/docs/assets/js/bootstrap.min.js"></script>
+		<script src="{$smarty.const.WWW_THEMES}/shared/libs/jquery/jquery.min.js"></script>
+	<script src="{$smarty.const.WWW_THEMES}/shared/libs/bootstrap/docs/assets/js/bootstrap.min.js"></script>
 	<!-- <script src="{$smarty.const.WWW_THEMES}/shared/js/subnav.js"></script> -->
-	<script src="{$smarty.const.WWW_THEMES}/shared/libs/colorbox-1.6.x/jquery.colorbox-min.js" type="text/javascript" ></script>
+	<script src="{$smarty.const.WWW_THEMES}/shared/libs/colorbox/jquery.colorbox-min.js" type="text/javascript" ></script>
 	<!-- tinymce editor -->
 	<script type="text/javascript" src="{$smarty.const.WWW_THEMES}/shared/libs/tinymce-builded/js/tinymce/tinymce.min.js"></script>
 	<script src="{$smarty.const.WWW_THEMES}/shared/js/jquery.qtip.min.js" type="text/javascript" ></script>
